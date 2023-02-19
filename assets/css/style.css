@@ -1,7 +1,11 @@
-﻿/* .red-bor{
+﻿.red-bor{
 
     border: 2px solid red
-} */
+}
+.green-bor{
+
+    border: 2px solid green
+}
 
 
 
@@ -19,6 +23,8 @@ section {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+
 .pad-bottom {
     padding-bottom: 60px;
 }
