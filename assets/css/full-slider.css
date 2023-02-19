@@ -1,0 +1,107 @@
+html,
+body {
+    height: 100%;
+}
+
+.homecarousel,
+.homecarousel .item,
+.homecarousel .active {
+    height: 100%;
+}
+.homecarousel .carousel-indicators .active {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 10px;
+}
+.homecarousel .carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.homecarousel .fill {
+    margin-top: 65px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /* z-index: 2; */
+}
+
+/* Banner Responsivness Handeled only in this  */
+@media  (max-width: 1000px){
+    .homecarousel .fill {
+       margin-top: 10px;
+    }
+  }
+  
+  @media  (max-width: 768px){
+  
+  }
+  
+  
+  @media  (max-width: 576px){
+    
+  
+  }
+  
+  @media  (max-width: 311px){
+   
+  }
+
+.carousel-control.left, .carousel-control.right {background: none;}
+footer {
+    margin: 50px 0;
+}
+.portfolio-modal .modal-content {background: rgba(255,255,255,0.5);}
+.client_content {background: #fff; -webkit-box-shadow: 0px 3px 10px 4px rgba(153,153,153,1);
+-moz-box-shadow: 0px 3px 10px 4px rgba(153,153,153,1);
+box-shadow: 0px 3px 10px 4px rgba(153,153,153,1);}
+
+#scCarousel .carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+#scCarousel .carousel-inner{
+    height: 300px;
+}
+#scCarousel .carousel-caption{
+    color: #989898;
+    text-shadow:none !important;
+    /* bottom: 125px !important; */
+    /* z-index: 20; */
+}
+
+@media screen and (max-width: 770px) {
+    #scCarousel .carousel-inner{
+        height: auto;
+    }
+    #scCarousel .carousel-caption{
+        bottom: -10px;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 320px) {
+.mwid100 {width: 100%;}
+}
+
+#showcasemodal .modal-body img{width: 90%; margin-left: 5%;}
+body.modal-open-noscroll {
+  margin-right: 0!important;
+  overflow: hidden;
+}
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+  margin-right: 0!important;
+}
+
+.portfolio-modal button {margin-top: 20px;}
